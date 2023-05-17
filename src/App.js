@@ -1,10 +1,15 @@
-
-
-
+import './app.css'
+import Header from './components/Header'
 function App() {
+  const data='mohammed risvan'
   return (
-   <h1 style={{color:'red'}}>hello</h1>
+    <div>
+    <Header data={data}/>
+      <p>asdfghjksdfghjk</p>
+      < Header/>
+    </div>
   );
 }
 
 export default App;
+
